@@ -1,0 +1,28 @@
+
+.row {
+	margin-top:75px;
+}
+
+#aboutMeContainer {
+	background-image:url("../img/AboutMe_bck_img.jpg");
+	background-size:cover;
+	width:100%;
+}
+
+#contactMeContainer {
+	width:100%;
+	background-color:#EDF0F5;
+}
+
+#divAboutMe h2 {
+	font-style:italic;
+}
+
+#divContactMe {
+	margin-bottom:75px;
+}
+
+#inputBody {
+	height:250px;
+	resize:none;
+}
