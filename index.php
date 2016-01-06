@@ -1,11 +1,13 @@
-<?php 
-	/*
-	*Last update: January 4, 2016
+<?php
+/*
+	*Last update: January 5, 2016
 	*Author: David Velasco
 	*Contains: Personal web page
-	/**/
-	
+	*Focus: tecnical experience block
+/**/
+	//session_start();
 	define ("ABS_PATH", $_SERVER['DOCUMENT_ROOT']);
+	//$_SESSION["ABS_PATH"] = ABS_PATH;
 ?>
 
 <!doctype html>
@@ -24,7 +26,7 @@
 	
     <body data-spy="scroll" data-target=".navbar-collapse">
     	
-    	<div class="navbar navbar-default navbar-fixed-top">
+    	<div id="topMenu" class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
 					<!-- TO-DO: Add a home page icon if possible, check this at the end -->
@@ -49,10 +51,17 @@
 			</div>
 		</div>
     
-    	<!-- TO-DO: Finish greetingBlock -->
+    	<!-- TO-DO: Missing small style edits -->
     	<?php 
     		/*TO-DO: Ensure that patch works properly*/
     		include (ABS_PATH . "/private_test_html/pageDivisions/greetingBlock.php"); 
     	?>
+    	
+    	<!-- TO-DO: Add technical experience block -->
+    	<?php
+    		/*TO-DO: Currently the link does not work*/
+    		//include (ABS_PATH . "/private_test_html/pageDivisions/techExpBlock.php"); 
+    	?>
+    	
     </body>
 </html>

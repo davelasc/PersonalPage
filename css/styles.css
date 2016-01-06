@@ -1,108 +1,58 @@
+/*
+	*Last update: January 5, 2016
+	*Author: David Velasco
+	*Contains: Style sheet
+	*Color reference: http://www.google.com.mx/design/spec/style/color.html#
+/**/
+
 .row {
 	margin-top:75px;
 	/*border-radius:5px;
 	border: 1px solid grey;*/
 }
 
-#aboutMeContainer {
-	background-image:url("../img/AboutMe_bck_img.jpg");
-	background-size:cover;
-	background-position:center;
-	width:100%;
+#topMenu {
+	background-color:  #3f51b5;
 }
 
-
-#ExperienceContainer {
-	background-image:url("../img/Experience_bck_img.jpg");
-	background-size:cover;
-	background-position:center;
-	width:100%;
-}
-
-#contactMeContainer {
-	width:100%;
-	background-color:#EDF0F5;
-}
-
-#divAboutMe h2 {
-	font-style:italic;
-}
-
-#divContactMe {
-	margin-bottom:75px;
-}
-
-#inputBody {
-	height:250px;
-	resize:none;
-}
-
-.alert{
-	display:none;
-	margin: 20px 0;
-}
-
-.hiddenTable {
-	display:none;
-}
-
-.titleContent {
-	text-align:center;
-	font-weight:bold;
-	font-size:3.5em;
-	padding-bottom:10px;
-}
-
-.logoContainer {
-	border-radius:50%;
-	height:100px;
-	width:100px;
-	margin:10px 25px;
-	float:left;
-	border:none;
-}
-
-.logoSelected {
-	height:200px;
-	width:200px;
-}
-
-
-
-#logoHewlettPackard {
-	background-image:url("../img/HewlettPackardLogo.jpg");
-	background-position:center;
-	background-size:cover;
-}
-
-#logoContinental {
-	background-image:url("../img/ContinentalLogo.jpg");
-	background-position:center;
-	background-size:cover;
-}
-
-#logoIteso {
-	background-image:url("../img/ITESOLogo.jpg");
-	background-position:center;
-	background-size:cover;
-}
-
-.break {
-	clear:both;
-}
-
-#displayTable {
-	table-layout:fixed;
+#topMenu a{
 	color:white;
 }
 
-#displayTable thead {
-	font-weight:bold;
-	font-size:2em;
+#aboutMeContainer {
+	background-image:url("../img/AboutMe_bck_img.jpg");/**/
+	background-size:cover;/**/
+	background-position:center;/**/
+	/*background-color:#BBDEFB;/**/
+	overflow:hidden;
 	text-align:center;
+	width:100%;
+	position:relative;
 }
 
-.smallCell {
-	font-weight:bold;
-	font-size: 1.2em;
+.qouteParent{
+	position:relative;
+	overflow:hidden;
+	/*background-color:red;/**/
+}
+
+.qouteSection {
+	/*display:inline-block;/**/
+	height:100%;/**/
+	top = 0;
+	right = 0;
+	position:absolute;
+	vertical-align:middle;
+	font-style:italic;
+	/*background-color:green;/**/
+}
+
+#divAboutMe p{
+	font-size:1.2em;
+	color:white;
+}
+
+/*TO-DO: Check currently the border-radius once having the proper image*/
+img {
+	/*border-radius:50%;/**/
 }
