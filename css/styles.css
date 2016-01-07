@@ -1,5 +1,5 @@
 /*
-	*Last update: January 5, 2016
+	*Last update: January 6, 2016
 	*Author: David Velasco
 	*Contains: Style sheet
 	*Color reference: http://www.google.com.mx/design/spec/style/color.html#
@@ -8,7 +8,7 @@
 .row {
 	margin-top:75px;
 	/*border-radius:5px;
-	border: 1px solid grey;*/
+	border: 1px solid grey;/**/
 }
 
 #topMenu {
@@ -55,4 +55,9 @@
 /*TO-DO: Check currently the border-radius once having the proper image*/
 img {
 	/*border-radius:50%;/**/
+}
+
+#divExperience {
+	background-color:#e8eaf6;
+	width:100%;
 }

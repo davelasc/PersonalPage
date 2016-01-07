@@ -1,6 +1,6 @@
 <?php
 /*
-	*Last update: January 5, 2016
+	*Last update: January 6, 2016
 	*Author: David Velasco
 	*Contains: Personal web page
 	*Focus: tecnical experience block
@@ -60,7 +60,7 @@
     	<!-- TO-DO: Add technical experience block -->
     	<?php
     		/*TO-DO: Currently the link does not work*/
-    		//include (ABS_PATH . "/private_test_html/pageDivisions/techExpBlock.php"); 
+    		include (ABS_PATH . "/private_test_html/pageDivisions/techExpBlock.php"); 
     	?>
     	
     </body>
