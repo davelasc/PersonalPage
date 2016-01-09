@@ -1,6 +1,6 @@
 <?php
 /*
-	*Last update: January 6, 2016
+	*Last update: January 7, 2016
 	*Author: David Velasco
 	*Contains: Personal web page
 	*Focus: tecnical experience block
@@ -62,6 +62,14 @@
     		/*TO-DO: Currently the link does not work*/
     		include (ABS_PATH . "/private_test_html/pageDivisions/techExpBlock.php"); 
     	?>
+    	
+    	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<!--link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css"-->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" > </script>
+		<script type="text/javascript" src="src/script.js" > </script>
     	
     </body>
 </html>

@@ -1,5 +1,5 @@
 /*
-	*Last update: January 6, 2016
+	*Last update: January 8, 2016
 	*Author: David Velasco
 	*Contains: Style sheet
 	*Color reference: http://www.google.com.mx/design/spec/style/color.html#
@@ -60,4 +60,95 @@ img {
 #divExperience {
 	background-color:#e8eaf6;
 	width:100%;
+}
+
+.tabBlock {
+	/*background-color:white;*/
+	width:100%;
+	margin-bottom:10px;
+}
+
+.inactive {
+	background-color:white;
+}
+
+.nav-pills li{
+	cursor:pointer;
+	border-radius:7px;
+	border:2px solid #337AB7;
+}
+
+.activeSection {
+	background-color:white;
+	display:block;
+	width:100%;
+}
+
+.activeSection th {
+	text-align:center;
+	font-size:3.5em;
+}
+
+.inactiveSection {
+	display:none;
+}
+
+.table-fixed thead {
+  width: 97%;
+}
+
+.table-fixed tbody {
+  height: 230px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+  display: block;
+}
+
+.table-fixed tbody td, .table-fixed thead > tr> th {
+  float: left;
+  border-bottom-width: 0;
+}
+
+.table-fixed .techSkillInnerTable {
+	width:100%;
+	table-layout:fixed;
+}
+
+.table-fixed .techSkillInnerTable {
+	width:250px;
+	overflow:hidden;
+}
+
+.table-fixed .techSkillInnerTable th{
+	text-align:center;
+	font-size:1.5em;
+}
+
+.table-fixed .tsExpBar {
+	border:2px solid green;
+}
+
+.table-fixed .expLevelBar {
+	background-color:green;
+}
+
+.table-fixed .tsLv {
+	font-size:0.9em;
+}
+
+.table-fixed .tsTime {
+	font-size:0.9em;
+	text-align:right;
+}
+
+.table-fixed .tsCompanies {
+	text-align:center;
+}
+
+.table-fixed .tsCompanies img {
+	width:50px;
+	height:50px;
 }

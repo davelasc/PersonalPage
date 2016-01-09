@@ -1,9 +1,9 @@
 <?php
 /*
-	*Last update: January 6, 2016
+	*Last update: January 8, 2016
 	*Author: David Velasco
 	*Contains: Contains generic techinical experience
-	*Focus: Create the tabs and their capacity to toggle.
+	*Focus: Correct the scrollable style
 /**/
 
 /*
@@ -59,21 +59,6 @@
 	</div>
 </div>
 */
-
-
-?>
-
-
-<?php 
-
-/*
-Day by day gaining the passion for 
-both front and back-end. Have no personal preference to a programming language or application, as that means my
-ideology and issue solving skills are being married to techonology rather than an adaptive solution. My dream job
-is that which it is possible to interact and collaborate with an multi-cultural team. The desire and need to learn
-is shared between all colleagues. My ideal company aspire to create the best solution for its clients, rather
-than just reach a number
-/**/
 ?>
 
 <div id="divExperience" class="container contentContainer">	
@@ -92,19 +77,348 @@ than just reach a number
 				</p>
 				<br />
 			</div>
-			<div>
-				<!-- TO-DO: Create 2 tabs, on for skills and another of company-->
+			<div class="tabBlock"> <!-- Tab block -->
+				<ul class="nav nav-pills nav-stacked">
+					<li class="active"><a>Technical Skills</a></li>
+					<li class="inactive"><a>Work experience</a></li>
+				</ul>
 			</div>
 		</div>
-		<div class="cold-md-6 box"">
-			<div> 
+		<div class="col-md-6 box"">
 				<!-- TO-DO: 
-							First: Create 2 tables to toggle between depending on the selected tab. 
-							Second: Do the generic layout(this must be done on php)
-							Third: Create the XML reader
-							Fourth: Fill the tables with the XML's data
+							First: Correct the scrollable issues
+							Second: Create the XML reader
+							Third: Fill the tables with the XML's data
 				-->
-			</div>
+				<div class="activeSection">			
+					<table class="table table-fixed activeTable" id="technicalSkills">
+						<thead>
+							<tr>
+								<th colspan="2">Techinical Skills</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<table class="techSkillInnerTable">
+										<thead>
+											<tr><th colspan="3" id="techSkillInnerTableName">C</th></tr>
+										</thead>
+										<tbody>
+											<tr class="tsExpBar">
+												<td class="expLevelBar">&nbsp;</td>
+												<td>&nbsp;</td>
+												<td>&nbsp;</td>
+											</tr>
+											<tr>
+												<td class="tsLv">Lv. Intermediate</td>
+												<td>&nbsp;</td>
+												<td class="tsTime">4 years</td>
+											</tr>
+											<tr>
+												<td colspan="3" class="tsCompanies">
+													<img src="img/ContinentalLogo.jpg" alt="Continental Logo" title="Continental"\>
+													<img src="img/HewlettPackardLogo.jpg" alt="Hewlett Packard Logo" title="Hewlett Packard"\>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+								<td>
+									<table class="techSkillInnerTable">
+										<thead>
+											<tr><th colspan="3" id="techSkillInnerTableName">C</th></tr>
+										</thead>
+										<tbody>
+											<tr class="tsExpBar">
+												<td class="expLevelBar">&nbsp;</td>
+												<td>&nbsp;</td>
+												<td>&nbsp;</td>
+											</tr>
+											<tr>
+												<td class="tsLv">Lv. Advance</td>
+												<td>&nbsp;</td>
+												<td class="tsTime">4 years</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<table class="techSkillInnerTable">
+										<thead>
+											<tr><th colspan="3" id="techSkillInnerTableName">C</th></tr>
+										</thead>
+										<tbody>
+											<tr class="tsExpBar">
+												<td class="expLevelBar">&nbsp;</td>
+												<td>&nbsp;</td>
+												<td>&nbsp;</td>
+											</tr>
+											<tr>
+												<td class="tsLv">Lv. Intermediate</td>
+												<td>&nbsp;</td>
+												<td class="tsTime">4 years</td>
+											</tr>
+											<tr>
+												<td colspan="3" class="tsCompanies">
+													<img src="img/ContinentalLogo.jpg" alt="Continental Logo" title="Continental"\>
+													<img src="img/HewlettPackardLogo.jpg" alt="Hewlett Packard Logo" title="Hewlett Packard"\>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+								<td>
+									<table class="techSkillInnerTable">
+										<thead>
+											<tr><th colspan="3" id="techSkillInnerTableName">C</th></tr>
+										</thead>
+										<tbody>
+											<tr class="tsExpBar">
+												<td class="expLevelBar">&nbsp;</td>
+												<td>&nbsp;</td>
+												<td>&nbsp;</td>
+											</tr>
+											<tr>
+												<td class="tsLv">Lv. Advance</td>
+												<td>&nbsp;</td>
+												<td class="tsTime">4 years</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<table class="techSkillInnerTable">
+										<thead>
+											<tr><th colspan="3" id="techSkillInnerTableName">C</th></tr>
+										</thead>
+										<tbody>
+											<tr class="tsExpBar">
+												<td class="expLevelBar">&nbsp;</td>
+												<td>&nbsp;</td>
+												<td>&nbsp;</td>
+											</tr>
+											<tr>
+												<td class="tsLv">Lv. Intermediate</td>
+												<td>&nbsp;</td>
+												<td class="tsTime">4 years</td>
+											</tr>
+											<tr>
+												<td colspan="3" class="tsCompanies">
+													<img src="img/ContinentalLogo.jpg" alt="Continental Logo" title="Continental"\>
+													<img src="img/HewlettPackardLogo.jpg" alt="Hewlett Packard Logo" title="Hewlett Packard"\>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+								<td>
+									<table class="techSkillInnerTable">
+										<thead>
+											<tr><th colspan="3" id="techSkillInnerTableName">C</th></tr>
+										</thead>
+										<tbody>
+											<tr class="tsExpBar">
+												<td class="expLevelBar">&nbsp;</td>
+												<td>&nbsp;</td>
+												<td>&nbsp;</td>
+											</tr>
+											<tr>
+												<td class="tsLv">Lv. Advance</td>
+												<td>&nbsp;</td>
+												<td class="tsTime">4 years</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<table class="techSkillInnerTable">
+										<thead>
+											<tr><th colspan="3" id="techSkillInnerTableName">C</th></tr>
+										</thead>
+										<tbody>
+											<tr class="tsExpBar">
+												<td class="expLevelBar">&nbsp;</td>
+												<td>&nbsp;</td>
+												<td>&nbsp;</td>
+											</tr>
+											<tr>
+												<td class="tsLv">Lv. Intermediate</td>
+												<td>&nbsp;</td>
+												<td class="tsTime">4 years</td>
+											</tr>
+											<tr>
+												<td colspan="3" class="tsCompanies">
+													<img src="img/ContinentalLogo.jpg" alt="Continental Logo" title="Continental"\>
+													<img src="img/HewlettPackardLogo.jpg" alt="Hewlett Packard Logo" title="Hewlett Packard"\>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+								<td>
+									<table class="techSkillInnerTable">
+										<thead>
+											<tr><th colspan="3" id="techSkillInnerTableName">C</th></tr>
+										</thead>
+										<tbody>
+											<tr class="tsExpBar">
+												<td class="expLevelBar">&nbsp;</td>
+												<td>&nbsp;</td>
+												<td>&nbsp;</td>
+											</tr>
+											<tr>
+												<td class="tsLv">Lv. Advance</td>
+												<td>&nbsp;</td>
+												<td class="tsTime">4 years</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<table class="techSkillInnerTable">
+										<thead>
+											<tr><th colspan="3" id="techSkillInnerTableName">C</th></tr>
+										</thead>
+										<tbody>
+											<tr class="tsExpBar">
+												<td class="expLevelBar">&nbsp;</td>
+												<td>&nbsp;</td>
+												<td>&nbsp;</td>
+											</tr>
+											<tr>
+												<td class="tsLv">Lv. Intermediate</td>
+												<td>&nbsp;</td>
+												<td class="tsTime">4 years</td>
+											</tr>
+											<tr>
+												<td colspan="3" class="tsCompanies">
+													<img src="img/ContinentalLogo.jpg" alt="Continental Logo" title="Continental"\>
+													<img src="img/HewlettPackardLogo.jpg" alt="Hewlett Packard Logo" title="Hewlett Packard"\>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+								<td>
+									<table class="techSkillInnerTable">
+										<thead>
+											<tr><th colspan="3" id="techSkillInnerTableName">C</th></tr>
+										</thead>
+										<tbody>
+											<tr class="tsExpBar">
+												<td class="expLevelBar">&nbsp;</td>
+												<td>&nbsp;</td>
+												<td>&nbsp;</td>
+											</tr>
+											<tr>
+												<td class="tsLv">Lv. Advance</td>
+												<td>&nbsp;</td>
+												<td class="tsTime">4 years</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<table class="techSkillInnerTable">
+										<thead>
+											<tr><th colspan="3" id="techSkillInnerTableName">C</th></tr>
+										</thead>
+										<tbody>
+											<tr class="tsExpBar">
+												<td class="expLevelBar">&nbsp;</td>
+												<td>&nbsp;</td>
+												<td>&nbsp;</td>
+											</tr>
+											<tr>
+												<td class="tsLv">Lv. Intermediate</td>
+												<td>&nbsp;</td>
+												<td class="tsTime">4 years</td>
+											</tr>
+											<tr>
+												<td colspan="3" class="tsCompanies">
+													<img src="img/ContinentalLogo.jpg" alt="Continental Logo" title="Continental"\>
+													<img src="img/HewlettPackardLogo.jpg" alt="Hewlett Packard Logo" title="Hewlett Packard"\>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+								<td>
+									<table class="techSkillInnerTable">
+										<thead>
+											<tr><th colspan="3" id="techSkillInnerTableName">C</th></tr>
+										</thead>
+										<tbody>
+											<tr class="tsExpBar">
+												<td class="expLevelBar">&nbsp;</td>
+												<td>&nbsp;</td>
+												<td>&nbsp;</td>
+											</tr>
+											<tr>
+												<td class="tsLv">Lv. Advance</td>
+												<td>&nbsp;</td>
+												<td class="tsTime">4 years</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<table class="techSkillInnerTable">
+										<thead>
+											<tr><th colspan="3" id="techSkillInnerTableName">C</th></tr>
+										</thead>
+										<tbody>
+											<tr class="tsExpBar">
+												<td class="expLevelBar">&nbsp;</td>
+												<td>&nbsp;</td>
+												<td>&nbsp;</td>
+											</tr>
+											<tr>
+												<td class="tsLv">Lv. Intermediate</td>
+												<td>&nbsp;</td>
+												<td class="tsTime">4 years</td>
+											</tr>
+											<tr>
+												<td colspan="3" class="tsCompanies">
+													<img src="img/ContinentalLogo.jpg" alt="Continental Logo" title="Continental"\>
+													<img src="img/HewlettPackardLogo.jpg" alt="Hewlett Packard Logo" title="Hewlett Packard"\>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+								<td>&nbsp;</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="inactiveSection">
+					<table class="table inactiveTable" id="workExperience">
+						<thead>
+							<tr>
+								<th colspan="2">Work Experience</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>World</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 		</div>
 	</div>
 </div>

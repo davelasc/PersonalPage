@@ -1,4 +1,25 @@
+/*
+	*Last update: January 7, 2016
+	*Author: David Velasco
+	*Contains: Personal web page's functionality
+/**/
+
 $(document).ready(function() {
+				
+				$(".nav-pills li").click(function() {
+					//We switch the tabs
+					$(".nav-pills li").removeClass("active").addClass("inactive");
+					$(this).addClass("active");
+					//Than we switch the table to show
+					$(".col-md-6 .activeSection").removeClass("activeSection").addClass("tempInactive");
+					$(".col-md-6 .inactiveSection").removeClass("inactiveSection").addClass("tempActive");
+					
+					$(".col-md-6 .tempInactive").removeClass("tempInactive").addClass("inactiveSection");
+					$(".col-md-6 .tempActive").removeClass("tempActive").addClass("activeSection");
+					
+				});
+				
+/****************************************************************************************************************/				
 				
 				var timer;
 				
