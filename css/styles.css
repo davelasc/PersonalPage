@@ -1,5 +1,5 @@
 /*
-	*Last update: January 8, 2016
+	*Last update: January 11, 2016
 	*Author: David Velasco
 	*Contains: Style sheet
 	*Color reference: http://www.google.com.mx/design/spec/style/color.html#
@@ -93,62 +93,55 @@ img {
 	display:none;
 }
 
-.table-fixed thead {
-  width: 97%;
-}
-
-.table-fixed tbody {
-  height: 230px;
-  overflow-y: auto;
-  width: 100%;
-}
-
-.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
-  display: block;
-}
-
-.table-fixed tbody td, .table-fixed thead > tr> th {
-  float: left;
-  border-bottom-width: 0;
-}
-
-.table-fixed .techSkillInnerTable {
+.techSkillInnerTable {
 	width:100%;
 	table-layout:fixed;
 }
 
-.table-fixed .techSkillInnerTable {
-	width:250px;
-	overflow:hidden;
-}
-
-.table-fixed .techSkillInnerTable th{
+.techSkillInnerTable th{
 	text-align:center;
 	font-size:1.5em;
 }
 
-.table-fixed .tsExpBar {
+.tsExpBar {
 	border:2px solid green;
 }
 
-.table-fixed .expLevelBar {
+.expLevelBar {
 	background-color:green;
 }
 
-.table-fixed .tsLv {
+.tsLv {
 	font-size:0.9em;
 }
 
-.table-fixed .tsTime {
+.tsTime {
 	font-size:0.9em;
 	text-align:right;
 }
 
-.table-fixed .tsCompanies {
+.tsCompanies {
 	text-align:center;
 }
 
-.table-fixed .tsCompanies img {
+.tsCompanies img {
 	width:50px;
 	height:50px;
+}
+
+.navArrowsTables {
+	font-size:2.0em;
+}
+
+.navArrowsTablesInactive {
+	color:whitesmoke;
+}
+
+.centerCells {
+	text-align:center;
+}
+
+#workExperience img {
+	width:100px;
+	height:100px;
 }

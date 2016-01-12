@@ -1,5 +1,5 @@
 /*
-	*Last update: January 7, 2016
+	*Last update: January 11, 2016
 	*Author: David Velasco
 	*Contains: Personal web page's functionality
 /**/
@@ -7,6 +7,12 @@
 $(document).ready(function() {
 				
 				$(".nav-pills li").click(function() {
+					
+					if(($("#techSkillPill").hasClass("active") && $(this).attr("id") == "techSkillPill") || 
+						($("#workExpPill").hasClass("active") && $(this).attr("id") == "workExpPill")) {
+							return; //Make sure not to toggle things when selecting the same pill that is active
+						}
+						
 					//We switch the tabs
 					$(".nav-pills li").removeClass("active").addClass("inactive");
 					$(this).addClass("active");
