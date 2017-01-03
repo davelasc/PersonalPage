@@ -1,11 +1,21 @@
-
 .row {
 	margin-top:75px;
+	/*border-radius:5px;
+	border: 1px solid grey;*/
 }
 
 #aboutMeContainer {
 	background-image:url("../img/AboutMe_bck_img.jpg");
 	background-size:cover;
+	background-position:center;
+	width:100%;
+}
+
+
+#ExperienceContainer {
+	background-image:url("../img/Experience_bck_img.jpg");
+	background-size:cover;
+	background-position:center;
 	width:100%;
 }
 
@@ -25,4 +35,74 @@
 #inputBody {
 	height:250px;
 	resize:none;
+}
+
+.alert{
+	display:none;
+	margin: 20px 0;
+}
+
+.hiddenTable {
+	display:none;
+}
+
+.titleContent {
+	text-align:center;
+	font-weight:bold;
+	font-size:3.5em;
+	padding-bottom:10px;
+}
+
+.logoContainer {
+	border-radius:50%;
+	height:100px;
+	width:100px;
+	margin:10px 25px;
+	float:left;
+	border:none;
+}
+
+.logoSelected {
+	height:200px;
+	width:200px;
+}
+
+
+
+#logoHewlettPackard {
+	background-image:url("../img/HewlettPackardLogo.jpg");
+	background-position:center;
+	background-size:cover;
+}
+
+#logoContinental {
+	background-image:url("../img/ContinentalLogo.jpg");
+	background-position:center;
+	background-size:cover;
+}
+
+#logoIteso {
+	background-image:url("../img/ITESOLogo.jpg");
+	background-position:center;
+	background-size:cover;
+}
+
+.break {
+	clear:both;
+}
+
+#displayTable {
+	table-layout:fixed;
+	color:white;
+}
+
+#displayTable thead {
+	font-weight:bold;
+	font-size:2em;
+	text-align:center;
+}
+
+.smallCell {
+	font-weight:bold;
+	font-size: 1.2em;
 }
